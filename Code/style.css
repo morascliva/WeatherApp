@@ -1,0 +1,118 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+    background-color: rgb(135, 165, 184);
+    background-image: url('bgg.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.weather {
+    width: 380px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px auto;
+    text-align: center;
+    color: rgb(173, 74, 8);
+    background: linear-gradient(130deg, white, white);
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: none;
+    outline: 0;
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: rgb(243, 225, 205);
+    color: rgb(173, 32, 32);
+    border-radius: 15px;
+    flex: 1;
+    margin-right: 12px;
+}
+
+.search button {
+    border: none;
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 25px;
+}
+
+.winfo .icon {
+    margin-top: 70px;
+    width: 200px;
+}
+
+.winfo h1 {
+    font-size: 70px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.winfo h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: -40px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 50px auto;
+}
+
+.details .col img {
+    width: 80px; /* Adjust the width as needed */
+    height: 80px; /* Adjust the height as needed */
+    margin-right: 10px;
+}
+
+.humidity,
+.wind {
+    font-size: 30px;
+}
+
+.humidity p,
+.wind p {
+    margin: 0;
+}
+
+.humidity {
+    font-size: 30px;
+    text-align: left;
+}
+
+.humidity p {
+    margin: 0;
+}
+
+.error {
+    color: red;
+    text-align: left;
+    margin-right: 10px;
+}
